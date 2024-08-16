@@ -4,8 +4,6 @@
     const greet = (name) => `Hello ${name}`;
     const saveTheWorld = () => `The world is saved!`;
     let myFunction;
-    //  ((name: string) => string) 
-    // (() => string);
     myFunction = addNumbers;
     console.log(myFunction(1, 2));
     myFunction = greet;

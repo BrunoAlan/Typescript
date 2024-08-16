@@ -9,7 +9,7 @@
     else {
         console.log('Avengers to the rescue');
     }
-    avengers = Number('55A'); // NaN is considered as a number
+    avengers = Number('55A');
     console.log({ avengers });
 })();
 //# sourceMappingURL=numbers.js.map
