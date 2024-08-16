@@ -10,3 +10,4 @@
     // toUpperCase() from undefined
     console.log(((_a = batman[11]) === null || _a === void 0 ? void 0 : _a.toUpperCase()) || 'not present');
 })();
+//# sourceMappingURL=strings.js.map

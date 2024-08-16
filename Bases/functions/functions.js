@@ -9,3 +9,4 @@
         return 'Signal activated';
     };
 })();
+//# sourceMappingURL=functions.js.map

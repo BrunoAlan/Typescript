@@ -8,3 +8,4 @@
     };
     const a = callBatman();
 })();
+//# sourceMappingURL=void.js.map

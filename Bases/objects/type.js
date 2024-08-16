@@ -16,3 +16,4 @@
     };
     console.log((_a = superman.getName) === null || _a === void 0 ? void 0 : _a.call(superman));
 })();
+//# sourceMappingURL=type.js.map
