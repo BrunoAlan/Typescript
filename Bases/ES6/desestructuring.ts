@@ -22,4 +22,11 @@
 
       printAvenger(avengers);
 
+
+      const avengersArray: string[] = ['Thor', 'Spiderman', 'Ironman'];
+
+      const [thor, ironman] = avengersArray;
+      console.log(thor, ironman);
+
+
 })();
