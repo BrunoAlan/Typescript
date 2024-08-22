@@ -18,6 +18,17 @@
     console.log((_a = superman.getName) === null || _a === void 0 ? void 0 : _a.call(superman));
 })();
 (() => {
+    class Mutant {
+        mutantPower(id) {
+            return 'Power';
+        }
+        constructor(name, realName) {
+            this.name = name;
+            this.realName = realName;
+        }
+    }
+})();
+(() => {
     const client = {
         name: 'Alan',
         age: 33,
