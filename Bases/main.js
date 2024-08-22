@@ -1,45 +1,34 @@
-'use strict';
+"use strict";
 (() => {
-  class Avenger {
-    static getAvgAge() {
-      return this.avgAge;
-    }
-    constructor(name, team, realName) {
-      this.name = name;
-      this.team = team;
-      this.realName = realName;
-    }
-    bio() {
-      return `${this.name} (${this.team})`;
-    }
-  }
-  Avenger.avgAge = 35;
+    var _a;
+    ;
+    let flash = {
+        name: 'Barry Allen',
+        age: 24,
+        powers: ['Super speed', 'Time travel'],
+    };
+    let superman = {
+        name: 'Clark Kent',
+        age: 60,
+        powers: ['Super strength', 'Fly'],
+        getName() {
+            return this.name;
+        }
+    };
+    console.log((_a = superman.getName) === null || _a === void 0 ? void 0 : _a.call(superman));
 })();
 (() => {
-  class Avenger {
-    constructor(name, realName) {
-      this.name = name;
-      this.realName = realName;
-      console.log('Avenger constructor');
-    }
-    get fullName() {
-      return `${this.name} ${this.realName}`;
-    }
-    getFullName() {
-      return `${this.name} ${this.realName}`;
-    }
-  }
-  class Xmen extends Avenger {
-    constructor(name, realName, isMutant) {
-      super(name, realName);
-      this.isMutant = isMutant;
-      console.log('Xmen constructor');
-    }
-    getFullNameFromXmen() {
-      console.log(super.getFullName());
-    }
-  }
-  const wolverine = new Xmen('Wolverine', 'Logan', true);
-  console.log(wolverine.fullName);
+    const client = {
+        name: 'Alan',
+        age: 33,
+        address: {
+            id: 125,
+            zip: 'KYD-123',
+            city: 'Ottawa'
+        },
+        getFullAddress(id) {
+            console.log(`The address is: ${this === null || this === void 0 ? void 0 : this.address.city}, ${this === null || this === void 0 ? void 0 : this.address.zip}`);
+        }
+    };
 })();
 //# sourceMappingURL=main.js.map
